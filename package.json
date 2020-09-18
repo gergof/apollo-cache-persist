@@ -31,7 +31,7 @@
     "postbuild": "npm run bundle",
     "prebuild": "npm run clean",
     "precommit": "lint-staged",
-    "prepare": "npm run build",
+    "postinstall": "npm run build",
     "test": "jest",
     "test:watch": "jest --watchAll --onlyChanged",
     "coverage": "jest --coverage",
